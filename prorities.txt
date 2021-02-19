@@ -1,0 +1,785 @@
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.131929 milliseconds.
+---
+Priority of vertices calculated in 0.08336199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.139716 milliseconds.
+---
+Priority of vertices calculated in 0.10176299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.09880399999999999 milliseconds.
+---
+Priority of vertices calculated in 0.099618 milliseconds.
+---
+Priority of vertices calculated in 0.115259 milliseconds.
+---
+Priority of vertices calculated in 0.094831 milliseconds.
+---
+Priority of vertices calculated in 0.101015 milliseconds.
+---
+Priority of vertices calculated in 0.09859699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.148014 milliseconds.
+---
+Priority of vertices calculated in 0.047597 milliseconds.
+---
+Priority of vertices calculated in 0.048306999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.049491 milliseconds.
+---
+Priority of vertices calculated in 0.046943 milliseconds.
+---
+Priority of vertices calculated in 0.055507 milliseconds.
+---
+Priority of vertices calculated in 0.048367 milliseconds.
+---
+Priority of vertices calculated in 0.050412 milliseconds.
+---
+Priority of vertices calculated in 0.047777 milliseconds.
+---
+Priority of vertices calculated in 0.049366 milliseconds.
+---
+Priority of vertices calculated in 0.049287 milliseconds.
+---
+Priority of vertices calculated in 0.06282399999999999 milliseconds.
+---
+Priority of vertices calculated in 0.050553999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.068199 milliseconds.
+---
+Priority of vertices calculated in 0.073124 milliseconds.
+---
+Priority of vertices calculated in 0.071005 milliseconds.
+---
+Priority of vertices calculated in 0.064496 milliseconds.
+---
+Priority of vertices calculated in 0.06332499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.07299599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.076782 milliseconds.
+---
+Priority of vertices calculated in 0.08552599999999999 milliseconds.
+---
+Priority of vertices calculated in 4.506483 milliseconds.
+---
+Priority of vertices calculated in 0.074725 milliseconds.
+---
+Priority of vertices calculated in 0.074918 milliseconds.
+---
+Priority of vertices calculated in 0.075027 milliseconds.
+---
+Priority of vertices calculated in 0.075279 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.14668399999999998 milliseconds.
+---
+Priority of vertices calculated in 0.083537 milliseconds.
+---
+Priority of vertices calculated in 0.12786699999999998 milliseconds.
+---
+Priority of vertices calculated in 0.12243799999999999 milliseconds.
+---
+Priority of vertices calculated in 0.10882599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.06785 milliseconds.
+---
+Priority of vertices calculated in 0.02916 milliseconds.
+---
+Priority of vertices calculated in 0.02938 milliseconds.
+---
+Priority of vertices calculated in 0.030605999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.038599 milliseconds.
+---
+Priority of vertices calculated in 0.02341 milliseconds.
+---
+Priority of vertices calculated in 0.029824999999999997 milliseconds.
+---
+Priority of vertices calculated in 0.054232999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.049614 milliseconds.
+---
+Priority of vertices calculated in 0.060124 milliseconds.
+---
+Priority of vertices calculated in 0.049637999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.051574999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.043491999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.052987 milliseconds.
+---
+Priority of vertices calculated in 0.052016 milliseconds.
+---
+Priority of vertices calculated in 0.052659 milliseconds.
+---
+Priority of vertices calculated in 0.052849999999999994 milliseconds.
+---
+Priority of vertices calculated in 0.13544299999999998 milliseconds.
+---
+Priority of vertices calculated in 7.598106 milliseconds.
+---
+Priority of vertices calculated in 0.072952 milliseconds.
+---
+Priority of vertices calculated in 0.077054 milliseconds.
+---
+Priority of vertices calculated in 0.07002699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.075085 milliseconds.
+---
+Priority of vertices calculated in 0.08133699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.07711699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.08707899999999999 milliseconds.
+---
+Priority of vertices calculated in 0.07706299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.077025 milliseconds.
+---
+Priority of vertices calculated in 0.06519799999999999 milliseconds.
+---
+Priority of vertices calculated in 0.078556 milliseconds.
+---
+Priority of vertices calculated in 0.07575 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.239611 milliseconds.
+---
+Priority of vertices calculated in 0.277147 milliseconds.
+---
+Priority of vertices calculated in 0.083408 milliseconds.
+---
+Priority of vertices calculated in 0.107097 milliseconds.
+---
+Priority of vertices calculated in 0.111063 milliseconds.
+---
+Priority of vertices calculated in 0.10070499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.099523 milliseconds.
+---
+Priority of vertices calculated in 0.09894599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.135122 milliseconds.
+---
+Priority of vertices calculated in 0.11007399999999999 milliseconds.
+---
+Priority of vertices calculated in 0.11508499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.11057099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.25476899999999997 milliseconds.
+---
+Priority of vertices calculated in 0.23957599999999998 milliseconds.
+---
+Priority of vertices calculated in 0.227878 milliseconds.
+---
+Priority of vertices calculated in 0.240996 milliseconds.
+---
+Priority of vertices calculated in 0.232406 milliseconds.
+---
+Priority of vertices calculated in 0.231453 milliseconds.
+---
+Priority of vertices calculated in 0.23391599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.233898 milliseconds.
+---
+Priority of vertices calculated in 0.24368599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.22467399999999998 milliseconds.
+---
+Priority of vertices calculated in 0.214977 milliseconds.
+---
+Priority of vertices calculated in 0.225518 milliseconds.
+---
+Priority of vertices calculated in 0.344518 milliseconds.
+---
+Priority of vertices calculated in 0.347167 milliseconds.
+---
+Priority of vertices calculated in 0.35320199999999996 milliseconds.
+---
+Priority of vertices calculated in 0.34706 milliseconds.
+---
+Priority of vertices calculated in 0.34071599999999996 milliseconds.
+---
+Priority of vertices calculated in 0.375793 milliseconds.
+---
+Priority of vertices calculated in 0.34208 milliseconds.
+---
+Priority of vertices calculated in 0.34843999999999997 milliseconds.
+---
+Priority of vertices calculated in 0.097158 milliseconds.
+---
+Priority of vertices calculated in 0.073254 milliseconds.
+---
+Priority of vertices calculated in 0.07384099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.077831 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.158293 milliseconds.
+---
+Priority of vertices calculated in 0.14363099999999998 milliseconds.
+---
+Priority of vertices calculated in 0.131244 milliseconds.
+---
+Priority of vertices calculated in 0.11950799999999999 milliseconds.
+---
+Priority of vertices calculated in 0.155519 milliseconds.
+---
+Priority of vertices calculated in 0.11228199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.10281699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.10077599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.10196 milliseconds.
+---
+Priority of vertices calculated in 0.10128899999999999 milliseconds.
+---
+Priority of vertices calculated in 0.135748 milliseconds.
+---
+Priority of vertices calculated in 0.10854599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.06943099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.045313 milliseconds.
+---
+Priority of vertices calculated in 0.044857999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.047821999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.057628 milliseconds.
+---
+Priority of vertices calculated in 0.04852 milliseconds.
+---
+Priority of vertices calculated in 0.04969 milliseconds.
+---
+Priority of vertices calculated in 0.038121999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.046674 milliseconds.
+---
+Priority of vertices calculated in 0.046730999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.046076 milliseconds.
+---
+Priority of vertices calculated in 0.051531 milliseconds.
+---
+Priority of vertices calculated in 0.069617 milliseconds.
+---
+Priority of vertices calculated in 0.068344 milliseconds.
+---
+Priority of vertices calculated in 0.068397 milliseconds.
+---
+Priority of vertices calculated in 0.071133 milliseconds.
+---
+Priority of vertices calculated in 0.072713 milliseconds.
+---
+Priority of vertices calculated in 0.068966 milliseconds.
+---
+Priority of vertices calculated in 1.005832 milliseconds.
+---
+Priority of vertices calculated in 0.07097099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.07027599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.069963 milliseconds.
+---
+Priority of vertices calculated in 0.017429 milliseconds.
+---
+Priority of vertices calculated in 0.011149 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.420585 milliseconds.
+---
+Priority of vertices calculated in 0.144905 milliseconds.
+---
+Priority of vertices calculated in 0.13562 milliseconds.
+---
+Priority of vertices calculated in 0.177943 milliseconds.
+---
+Priority of vertices calculated in 0.116033 milliseconds.
+---
+Priority of vertices calculated in 0.104611 milliseconds.
+---
+Priority of vertices calculated in 0.097217 milliseconds.
+---
+Priority of vertices calculated in 0.10356699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.098048 milliseconds.
+---
+Priority of vertices calculated in 0.095869 milliseconds.
+---
+Priority of vertices calculated in 0.14252099999999998 milliseconds.
+---
+Priority of vertices calculated in 0.048270999999999994 milliseconds.
+---
+Priority of vertices calculated in 0.049267 milliseconds.
+---
+Priority of vertices calculated in 0.04777 milliseconds.
+---
+Priority of vertices calculated in 0.047805 milliseconds.
+---
+Priority of vertices calculated in 0.049944999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.06229 milliseconds.
+---
+Priority of vertices calculated in 0.055931999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.0489 milliseconds.
+---
+Priority of vertices calculated in 0.050245 milliseconds.
+---
+Priority of vertices calculated in 0.049897 milliseconds.
+---
+Priority of vertices calculated in 0.048860999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.048476 milliseconds.
+---
+Priority of vertices calculated in 0.050439 milliseconds.
+---
+Priority of vertices calculated in 0.07413299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.07077499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.070708 milliseconds.
+---
+Priority of vertices calculated in 0.064339 milliseconds.
+---
+Priority of vertices calculated in 0.07396699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.074645 milliseconds.
+---
+Priority of vertices calculated in 0.079746 milliseconds.
+---
+Priority of vertices calculated in 0.076765 milliseconds.
+---
+Priority of vertices calculated in 0.073151 milliseconds.
+---
+Priority of vertices calculated in 0.019794 milliseconds.
+---
+Priority of vertices calculated in 0.010017 milliseconds.
+---
+Priority of vertices calculated in 0.009699 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.122346 milliseconds.
+---
+Priority of vertices calculated in 0.13425199999999998 milliseconds.
+---
+Priority of vertices calculated in 0.137757 milliseconds.
+---
+Priority of vertices calculated in 0.11699999999999999 milliseconds.
+---
+Priority of vertices calculated in 0.123334 milliseconds.
+---
+Priority of vertices calculated in 0.10140199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.104753 milliseconds.
+---
+Priority of vertices calculated in 0.101562 milliseconds.
+---
+Priority of vertices calculated in 2.984514 milliseconds.
+---
+Priority of vertices calculated in 0.023910999999999998 milliseconds.
+---
+Priority of vertices calculated in 25.282656 milliseconds.
+---
+Priority of vertices calculated in 0.02539 milliseconds.
+---
+Priority of vertices calculated in 0.045854 milliseconds.
+---
+Priority of vertices calculated in 0.046495999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.045383 milliseconds.
+---
+Priority of vertices calculated in 0.04842 milliseconds.
+---
+Priority of vertices calculated in 0.063295 milliseconds.
+---
+Priority of vertices calculated in 0.051309 milliseconds.
+---
+Priority of vertices calculated in 0.048257 milliseconds.
+---
+Priority of vertices calculated in 0.050711 milliseconds.
+---
+Priority of vertices calculated in 0.048824 milliseconds.
+---
+Priority of vertices calculated in 0.048341999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.052457 milliseconds.
+---
+Priority of vertices calculated in 0.048725 milliseconds.
+---
+Priority of vertices calculated in 0.073545 milliseconds.
+---
+Priority of vertices calculated in 0.072366 milliseconds.
+---
+Priority of vertices calculated in 0.072361 milliseconds.
+---
+Priority of vertices calculated in 0.07421 milliseconds.
+---
+Priority of vertices calculated in 0.076903 milliseconds.
+---
+Priority of vertices calculated in 0.079788 milliseconds.
+---
+Priority of vertices calculated in 0.073308 milliseconds.
+---
+Priority of vertices calculated in 0.10442399999999999 milliseconds.
+---
+Priority of vertices calculated in 0.06485099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.076929 milliseconds.
+---
+Priority of vertices calculated in 0.074012 milliseconds.
+---
+Priority of vertices calculated in 0.067093 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.195741 milliseconds.
+---
+Priority of vertices calculated in 0.08261199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.08508099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.076114 milliseconds.
+---
+Priority of vertices calculated in 0.123261 milliseconds.
+---
+Priority of vertices calculated in 4.133171 milliseconds.
+---
+Priority of vertices calculated in 0.106402 milliseconds.
+---
+Priority of vertices calculated in 0.122485 milliseconds.
+---
+Priority of vertices calculated in 0.10409199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.106121 milliseconds.
+---
+Priority of vertices calculated in 0.14998999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.057996 milliseconds.
+---
+Priority of vertices calculated in 0.025020999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.023216999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.027136 milliseconds.
+---
+Priority of vertices calculated in 0.023066 milliseconds.
+---
+Priority of vertices calculated in 0.033013 milliseconds.
+---
+Priority of vertices calculated in 0.050177 milliseconds.
+---
+Priority of vertices calculated in 0.047247 milliseconds.
+---
+Priority of vertices calculated in 0.047030999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.043545 milliseconds.
+---
+Priority of vertices calculated in 0.04697 milliseconds.
+---
+Priority of vertices calculated in 0.042434 milliseconds.
+---
+Priority of vertices calculated in 0.049547999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.071035 milliseconds.
+---
+Priority of vertices calculated in 0.068401 milliseconds.
+---
+Priority of vertices calculated in 0.071716 milliseconds.
+---
+Priority of vertices calculated in 0.068562 milliseconds.
+---
+Priority of vertices calculated in 0.070094 milliseconds.
+---
+Priority of vertices calculated in 0.066236 milliseconds.
+---
+Priority of vertices calculated in 0.080039 milliseconds.
+---
+Priority of vertices calculated in 0.075676 milliseconds.
+---
+Priority of vertices calculated in 0.06890199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.070905 milliseconds.
+---
+Priority of vertices calculated in 0.07023599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.069622 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.199378 milliseconds.
+---
+Priority of vertices calculated in 0.24964199999999998 milliseconds.
+---
+Priority of vertices calculated in 0.21059499999999998 milliseconds.
+---
+Priority of vertices calculated in 0.115132 milliseconds.
+---
+Priority of vertices calculated in 0.11024199999999999 milliseconds.
+---
+Priority of vertices calculated in 0.100129 milliseconds.
+---
+Priority of vertices calculated in 0.11243299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.16633799999999999 milliseconds.
+---
+Priority of vertices calculated in 0.056152 milliseconds.
+---
+Priority of vertices calculated in 0.027405 milliseconds.
+---
+Priority of vertices calculated in 0.038958 milliseconds.
+---
+Priority of vertices calculated in 0.050145999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.063038 milliseconds.
+---
+Priority of vertices calculated in 0.048849 milliseconds.
+---
+Priority of vertices calculated in 0.077884 milliseconds.
+---
+Priority of vertices calculated in 0.052937 milliseconds.
+---
+Priority of vertices calculated in 0.061929 milliseconds.
+---
+Priority of vertices calculated in 0.051057 milliseconds.
+---
+Priority of vertices calculated in 0.052286 milliseconds.
+---
+Priority of vertices calculated in 0.060301999999999994 milliseconds.
+---
+Priority of vertices calculated in 0.04307 milliseconds.
+---
+Priority of vertices calculated in 0.09894499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.06532 milliseconds.
+---
+Priority of vertices calculated in 0.047535999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.072265 milliseconds.
+---
+Priority of vertices calculated in 0.07943299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.128551 milliseconds.
+---
+Priority of vertices calculated in 0.07656299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.089109 milliseconds.
+---
+Priority of vertices calculated in 0.075764 milliseconds.
+---
+Priority of vertices calculated in 0.596277 milliseconds.
+---
+Priority of vertices calculated in 0.075877 milliseconds.
+---
+Priority of vertices calculated in 0.069855 milliseconds.
+---
+Priority of vertices calculated in 0.027738 milliseconds.
+---
+Priority of vertices calculated in 0.017414 milliseconds.
+---
+Priority of vertices calculated in 0.015196999999999999 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.166009 milliseconds.
+---
+Priority of vertices calculated in 0.18165599999999998 milliseconds.
+---
+Priority of vertices calculated in 0.15570399999999998 milliseconds.
+---
+Priority of vertices calculated in 0.093654 milliseconds.
+---
+Priority of vertices calculated in 0.11267999999999999 milliseconds.
+---
+Priority of vertices calculated in 0.10518 milliseconds.
+---
+Priority of vertices calculated in 0.10668699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.103751 milliseconds.
+---
+Priority of vertices calculated in 0.049475 milliseconds.
+---
+Priority of vertices calculated in 0.025648999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.027271999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.027767999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.066485 milliseconds.
+---
+Priority of vertices calculated in 0.053047 milliseconds.
+---
+Priority of vertices calculated in 0.053494 milliseconds.
+---
+Priority of vertices calculated in 0.051497999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.052819 milliseconds.
+---
+Priority of vertices calculated in 0.052955999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.054533 milliseconds.
+---
+Priority of vertices calculated in 0.056946 milliseconds.
+---
+Priority of vertices calculated in 0.055244999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.057028999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.05191 milliseconds.
+---
+Priority of vertices calculated in 0.060902 milliseconds.
+---
+Priority of vertices calculated in 0.08416699999999999 milliseconds.
+---
+Priority of vertices calculated in 0.070757 milliseconds.
+---
+Priority of vertices calculated in 0.081436 milliseconds.
+---
+Priority of vertices calculated in 0.065097 milliseconds.
+---
+Priority of vertices calculated in 0.08863599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.069825 milliseconds.
+---
+Priority of vertices calculated in 0.098843 milliseconds.
+---
+Priority of vertices calculated in 0.034009 milliseconds.
+---
+Priority of vertices calculated in 0.013958 milliseconds.
+---
+Priority of vertices calculated in 0.014103 milliseconds.
+---
+Priority of vertices calculated in 0.015508999999999998 milliseconds.
+---
+Priority of vertices calculated in 0.015146 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.214337 milliseconds.
+---
+Priority of vertices calculated in 0.156931 milliseconds.
+---
+Priority of vertices calculated in 0.174951 milliseconds.
+---
+Priority of vertices calculated in 0.076083 milliseconds.
+---
+Priority of vertices calculated in 0.10187299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.109066 milliseconds.
+---
+Priority of vertices calculated in 0.114283 milliseconds.
+---
+Priority of vertices calculated in 0.106116 milliseconds.
+---
+Priority of vertices calculated in 0.07330099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.026819 milliseconds.
+---
+Priority of vertices calculated in 0.028998 milliseconds.
+---
+Priority of vertices calculated in 0.029151 milliseconds.
+---
+Priority of vertices calculated in 0.06118 milliseconds.
+---
+Priority of vertices calculated in 0.07015099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.050643999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.035511999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.043136 milliseconds.
+---
+Priority of vertices calculated in 0.052718 milliseconds.
+---
+Priority of vertices calculated in 0.059888 milliseconds.
+---
+Priority of vertices calculated in 0.05792 milliseconds.
+---
+Priority of vertices calculated in 0.029318 milliseconds.
+---
+Priority of vertices calculated in 0.030843 milliseconds.
+---
+Priority of vertices calculated in 0.063859 milliseconds.
+---
+Priority of vertices calculated in 0.046772999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.086169 milliseconds.
+---
+Priority of vertices calculated in 0.06807099999999999 milliseconds.
+---
+Priority of vertices calculated in 0.048625999999999996 milliseconds.
+---
+Priority of vertices calculated in 0.1328 milliseconds.
+---
+Priority of vertices calculated in 0.079373 milliseconds.
+---
+Priority of vertices calculated in 0.081777 milliseconds.
+---
+Priority of vertices calculated in 0.10073599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.032942 milliseconds.
+---
+Priority of vertices calculated in 0.014554 milliseconds.
+---
+Priority of vertices calculated in 0.013106999999999999 milliseconds.
+---
+Priority of vertices calculated in 0.013361999999999999 milliseconds.
+---
+Priority of vertices calculated in 0.012903999999999999 milliseconds.
+proc_id,tasks_executed,time_ms
+---
+Priority of vertices calculated in 0.418056 milliseconds.
+---
+Priority of vertices calculated in 0.125807 milliseconds.
+---
+Priority of vertices calculated in 0.12328599999999999 milliseconds.
+---
+Priority of vertices calculated in 0.09541 milliseconds.
+---
+Priority of vertices calculated in 0.097352 milliseconds.
+---
+Priority of vertices calculated in 0.096814 milliseconds.
+---
+Priority of vertices calculated in 0.09268 milliseconds.
+---
+Priority of vertices calculated in 0.09776399999999999 milliseconds.
+---
+Priority of vertices calculated in 0.139105 milliseconds.
+---
+Priority of vertices calculated in 0.08165499999999999 milliseconds.
+---
+Priority of vertices calculated in 0.052086999999999994 milliseconds.
+---
+Priority of vertices calculated in 0.061526 milliseconds.
+---
+Priority of vertices calculated in 0.048277 milliseconds.
+---
+Priority of vertices calculated in 0.047348999999999995 milliseconds.
+---
+Priority of vertices calculated in 0.047199 milliseconds.
+---
+Priority of vertices calculated in 0.052029 milliseconds.
+---
+Priority of vertices calculated in 0.050441 milliseconds.
+---
+Priority of vertices calculated in 0.052881 milliseconds.
+---
+Priority of vertices calculated in 0.129891 milliseconds.
+---
+Priority of vertices calculated in 0.095692 milliseconds.
+---
+Priority of vertices calculated in 0.213866 milliseconds.
+---
+Priority of vertices calculated in 0.0705 milliseconds.
+---
+Priority of vertices calculated in 0.068518 milliseconds.
+---
+Priority of vertices calculated in 0.069922 milliseconds.
+---
+Priority of vertices calculated in 0.068031 milliseconds.
+---
+Priority of vertices calculated in 0.06801299999999999 milliseconds.
+---
+Priority of vertices calculated in 0.06860999999999999 milliseconds.
