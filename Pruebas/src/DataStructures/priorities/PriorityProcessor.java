@@ -1,10 +1,8 @@
 package DataStructures.priorities;
 
 import java.util.ArrayList;
-import java.util.concurrent.LinkedBlockingQueue;
 
 import DataStructures.Processor;
-import api.Main;
 
 public class PriorityProcessor extends Thread implements Processor {	
 	// The multithreaded computation that the processor has to execute
@@ -28,21 +26,23 @@ public class PriorityProcessor extends Thread implements Processor {
 	// Processor's execution time
 	long executionTime;
 	
-	private LinkedBlockingQueue<String> output;
+	private int iteration;
+	private int totalTasks;
 	
 	/**
 	 * Constructor of the class
 	 * @param pComputation The computation that the processor is going to execute
 	 * @param pId The id of the processor
 	 */
-	public PriorityProcessor(PriorityMultithreadedComputation pComputation, int pId) {	
+	public PriorityProcessor(PriorityMultithreadedComputation pComputation, int pId, int totalTasks, int iteration) {	
 		computation = pComputation;
 		id = pId;
 		isStealing = false;
 		verticesToEnqueue = new ArrayList<Integer>();
 		readyDequeue = new ArrayList<Integer>();
 		executionTime=0;
-		output = new LinkedBlockingQueue<String>();	
+		this.iteration = iteration;
+		this.totalTasks = totalTasks;
 	}
 	
 	/**
@@ -53,8 +53,6 @@ public class PriorityProcessor extends Thread implements Processor {
 	 */
 	public synchronized void visitVertex(int indexVertexToVisit) {		
 		if(readyDequeue.isEmpty()) {
-			//Prints the state of the processor 
-			//System.out.println("Processor's "+ this.id + " ready dequeue is empty.");
 			this.steal();
 		} else {
 			Integer vertex = readyDequeue.get(indexVertexToVisit);
@@ -62,9 +60,6 @@ public class PriorityProcessor extends Thread implements Processor {
 			if(computation.getIncidentVertices().get(vertex) == 0) {
 				// Remove vertex from the ready dequeue of the processor
 				readyDequeue.remove(indexVertexToVisit);
-				
-				// Prints the id of the processor and the vertex/task that has visited/completed.
-				//System.out.println("Processor " + this.id + " has completed task " + vertex + ".");
 				
 				// Adds one to the count of the tasks executed by the processor.
 				tasksExecuted ++;
@@ -76,8 +71,6 @@ public class PriorityProcessor extends Thread implements Processor {
 				for(int i = 0 ; i < verticesToEnqueue.size() ; i++) {
 					Integer adjacentVertex = verticesToEnqueue.get(i);
 					
-					// Prints the task that is being enqueued in the ready dequeue of the processor
-					//System.out.println("Task " + adjacentVertex + " enqueued in the processor's " + this.id + " ready dequeue. ");
 					if(readyDequeue.isEmpty() || computation.getPriorityVertices().get(adjacentVertex.intValue()) >= computation.getPriorityVertices().get(readyDequeue.get(0).intValue())) {
 						readyDequeue.add(0, adjacentVertex);
 					} else if (computation.getPriorityVertices().get(adjacentVertex.intValue()) <= computation.getPriorityVertices().get(readyDequeue.size()-1)) {
@@ -92,8 +85,6 @@ public class PriorityProcessor extends Thread implements Processor {
 					}			
 				}
 			} else {
-				//Prints the state of the processor 
-				//System.out.println("Processor " + this.id + " has stalled.");
 				//Processor enters in stall
 				this.stall();
 			}	
@@ -120,17 +111,12 @@ public class PriorityProcessor extends Thread implements Processor {
 	 * Steals a vertex/task that is enqueued in another processor ready dequeue. 
 	 */
 	public void steal() {
-		// Prints the state of the processor 
-		//System.out.println("Processor " + this.id + " is work stealing.");
 		this.isStealing = true;
 		
 		if(computation.numberOfVisitedVertices()!=computation.getNumberVerticesG()) {
 			Integer stolenVertex = computation.stealVertex(this.id);
-			// Prints the id and the task that had been stolen by the processor
-			//System.out.println("Processor " + this.id + " steals task " + stolenVertex + ".");
 			
 			if(stolenVertex.intValue() != -1 && stolenVertex.intValue() != -2) {
-				//System.out.println("Task " + stolenVertex + " added to processor's " + this.id + " ready dequeue.");
 				readyDequeue.add(stolenVertex);
 				this.visitVertex(readyDequeue.size()-1);
 			} else if (stolenVertex.intValue() == -2) {
@@ -146,9 +132,6 @@ public class PriorityProcessor extends Thread implements Processor {
 	public synchronized boolean setVertexToSteal() {
 		Boolean vertexSet = false;
 		if (this.readyDequeue.size()>1) {
-			// Prints the task/vertex that is being given by the processor
-			//System.out.println("Processor " + this.id + " gives task " + readyDequeue.get(0) + " to steal.");
-			
 			computation.setVertexToSteal(this.readyDequeue.get(0));
 			readyDequeue.remove(0);
 			
@@ -168,7 +151,6 @@ public class PriorityProcessor extends Thread implements Processor {
 		}
 		while(computation.numberOfVisitedVertices()!= computation.getNumberVerticesG()) {
 			this.visitVertex(0);
-			//System.out.println("Number of completed tasks is " + computation.numberOfVisitedVertices()+".");
 			try {
 				sleep(150);
 			} catch (Exception e) {
@@ -176,7 +158,7 @@ public class PriorityProcessor extends Thread implements Processor {
 			}
 		}
 		executionTime = System.nanoTime()-startTime;
-		Main.prioritiesOutput.println(this.id + "," + tasksExecuted + "," + this.executionTime*1E-6);
+		System.out.println("PRIO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	//Get Methods 	
@@ -186,12 +168,5 @@ public class PriorityProcessor extends Thread implements Processor {
 	
 	public long getExecutionTime() {
 		return executionTime;
-	}
-	
-	public String getOutput() {
-		String res = "";
-		for(String s : output) 
-			res += s;
-		return res;
 	}
 }

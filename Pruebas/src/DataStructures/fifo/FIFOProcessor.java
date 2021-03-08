@@ -5,7 +5,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import DataStructures.MultithreadedComputation;
 import DataStructures.Processor;
-import api.Main;
 
 
 public class FIFOProcessor extends Thread implements Processor {
@@ -31,6 +30,9 @@ public class FIFOProcessor extends Thread implements Processor {
 	// Processor's execution time
 	long executionTime;
 	
+	private int iteration;
+	private int totalTasks;
+	
 	private LinkedBlockingQueue<String> output;
 	
 	/**
@@ -38,7 +40,7 @@ public class FIFOProcessor extends Thread implements Processor {
 	 * @param pComputation The computation that the processor is going to execute
 	 * @param pId The id of the processor
 	 */
-	public FIFOProcessor(MultithreadedComputation pComputation, int pId) {	
+	public FIFOProcessor(MultithreadedComputation pComputation, int pId, int totalTasks, int iteration) {	
 		computation = pComputation;
 		id = pId;
 		isStealing = false;
@@ -46,6 +48,8 @@ public class FIFOProcessor extends Thread implements Processor {
 		readyDequeue = new ArrayList<Integer>();
 		executionTime=0;
 		output = new LinkedBlockingQueue<String>();	
+		this.iteration = iteration;
+		this.totalTasks = totalTasks;
 	}
 	
 	/**
@@ -157,7 +161,6 @@ public class FIFOProcessor extends Thread implements Processor {
 	 */
 	@Override
 	public void run() {
-		
 		long startTime = System.nanoTime();
 		if (this.id==0) 
 			readyDequeue.add(0);
@@ -170,7 +173,7 @@ public class FIFOProcessor extends Thread implements Processor {
 			}
 		}
 		this.executionTime = System.nanoTime()-startTime;
-		Main.fifoOutput.println(this.id + "," + tasksExecuted + "," + this.executionTime*1E-6);
+		System.out.println("FIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	
@@ -191,4 +194,5 @@ public class FIFOProcessor extends Thread implements Processor {
 			res += s;
 		return res;
 	}
+
 }

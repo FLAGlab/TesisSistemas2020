@@ -35,6 +35,4 @@ public interface Processor {
 	public Boolean getIsStealing();
 
 	public long getExecutionTime();
-	
-	public String getOutput();
 }

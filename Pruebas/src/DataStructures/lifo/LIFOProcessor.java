@@ -1,14 +1,10 @@
 package DataStructures.lifo;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingQueue;
 
 import DataStructures.MultithreadedComputation;
 import DataStructures.Processor;
-import api.Main;
 
 public class LIFOProcessor extends Thread implements Processor {
 	// The multithreaded computation that the processor has to execute
@@ -34,12 +30,15 @@ public class LIFOProcessor extends Thread implements Processor {
 	
 	private LinkedBlockingQueue<String> output;
 	
+	private int iteration;
+	private int totalTasks;
+	
 	/**
 	 * Constructor of the class
 	 * @param pComputation The computation that the processor is going to execute
 	 * @param pId The id of the processor
 	 */
-	public LIFOProcessor(MultithreadedComputation pComputation, int pId) {	
+	public LIFOProcessor(MultithreadedComputation pComputation, int pId, int totalTasks, int iteration) {	
 		computation =pComputation;
 		id = pId;
 		isStealing = false;
@@ -47,6 +46,8 @@ public class LIFOProcessor extends Thread implements Processor {
 		readyDequeue = new ArrayList<Integer>();
 		executionTime=0;
 		output = new LinkedBlockingQueue<String>();	
+		this.iteration = iteration;
+		this.totalTasks = totalTasks;
 	}
 	
 	/**
@@ -167,8 +168,7 @@ public class LIFOProcessor extends Thread implements Processor {
 			}
 		}
 		this.executionTime = System.nanoTime() - startTime;
-		//System.out.println(this.id + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
-		Main.lifoOutput.println(this.id + "," + this.tasksExecuted + "," + this.executionTime*1E-6 + "\n");
+		System.out.println("LIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	//Get Methods 

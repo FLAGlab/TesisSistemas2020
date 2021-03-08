@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import DataStructures.MultithreadedComputation;
 import DataStructures.graph.LongestPathDAG;
-import api.Main;
+import api.DealFile;
 import edu.princeton.cs.algs4.Digraph;
 
 public class PriorityMultithreadedComputation extends MultithreadedComputation {
@@ -27,7 +27,7 @@ public class PriorityMultithreadedComputation extends MultithreadedComputation {
 		priorityVertices = longestPath.getPriorityVerticesDAG();
 		
 		long executionTime = System.nanoTime()-startTime;
-		Main.prioritiesOutput.println("Priority of vertices calculated in " + executionTime*1E-6 + " milliseconds.");
+		DealFile.getInstance().writeToFile("priorities", "Priority of vertices calculated in " + executionTime*1E-6 + " milliseconds.");
 	}
 	
 	public ArrayList<Integer> getPriorityVertices() {
