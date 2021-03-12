@@ -1,7 +1,6 @@
 package DataStructures;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ControllerStealing extends Thread {	
 	// Array that stores the processors
@@ -27,10 +26,8 @@ public class ControllerStealing extends Thread {
 	public void run() {	
 		while(computation.numberOfVisitedVertices()!= computation.getNumberVerticesG()) {
 			if(computation.getNumberOfProcessorsStealing() != 0) {
-				Iterator<Processor> it = processors.iterator();
-				while(it.hasNext()) {
-					Processor p = it.next();
-					if(p.getIsStealing() == false && p.setVertexToSteal()) {
+				for (int i=0 ; i< processors.size(); i++) {
+		 			if (processors.get(i).getIsStealing() == false && processors.get(i).setVertexToSteal()) {
 						try {
 		 					sleep(300);
 		 				} catch (Exception e) {

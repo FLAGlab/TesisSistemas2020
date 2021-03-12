@@ -51,11 +51,10 @@ public class MultithreadedComputation {
 		availableVertexToSteal = false;
 		
 		//Fill the incidentVertices array with the number of incident vertices to each vertex
-		for (int v = 0 ; v < numberVerticesG; v++)
+		for (int v = 0 ; v < numberVerticesG; v++) {
 			incidentVertices.add(G.indegree(v));
-		
-		//Fill each visitedVertices and enqueuedVertices array entry with 0 and -1 respectively since none of the vertices of G have been visited or enqueued
-		for (int v = 0 ; v < numberVerticesG ; v++) {
+			//Fill each visitedVertices and enqueuedVertices array entry with 0 and -1 respectively since none of the vertices of G have been visited or enqueued
+		//for (int v = 0 ; v < numberVerticesG ; v++) {
 			visitedVertices.add(0);
 			enqueuedVertices.add(-1);
 		}
@@ -67,8 +66,8 @@ public class MultithreadedComputation {
 	 */
 	public Integer numberOfVisitedVertices() {
 		Integer numVisitedVertices = 0;
-		for (int i = 0 ; i < visitedVertices.size() ; i++)
-			numVisitedVertices = numVisitedVertices + visitedVertices.get(i);
+		for (int i = 0; i < this.visitedVertices.size(); i++)
+			numVisitedVertices += this.visitedVertices.get(i);
 		return numVisitedVertices;
 	}
 	
@@ -96,8 +95,6 @@ public class MultithreadedComputation {
 			if(enqueuedVertices.get(adjacentVertex.intValue()) == -1) {
 				enqueuedVertices.set(adjacentVertex.intValue(), processor);
 				verticesToEnqueue.add(adjacentVertex);
-				// Prints the task that is being enqueued in the ready dequeue of the processor
-				//System.out.println("Task " + adjacentVertex + " enqueued in the LIFO processor's " + processor + " ready dequeue. ");
 			}		
 		}
 		return verticesToEnqueue;
@@ -109,11 +106,10 @@ public class MultithreadedComputation {
 	 */
 	public synchronized Integer stealVertex(Integer id) {	
 		numberOfProcessorsStealing ++;
-		//System.out.println("The number of LIFO processors stealing is: " + this.numberOfProcessorsStealing +".");
 		
 		// While there is not vertex/task to steal processor waits
-		while (availableVertexToSteal == false) {
-			if (this.numberOfProcessorsStealing == this.numberOfProcessors) { 
+		while(availableVertexToSteal == false) {
+			if(this.numberOfProcessorsStealing == this.numberOfProcessors) { 
 				try {
 					wait(300);
 				} catch (InterruptedException e) {

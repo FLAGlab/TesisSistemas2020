@@ -19,7 +19,7 @@ public class Main {
 		int ITERATIONS = Integer.valueOf(args[0]);
 		int MAX_CORES = Integer.valueOf(args[1]);
 		// Array that contains the amount of vertices of the graphs that are going to be tested
-		int[] graphSize = {50};//, 100, 200, 400, 800, 1600};
+		int[] graphSize = {50, 100, 200};//, 400, 800, 1600};
 		result = new String();
 		// Array containing densities 
 		double[] density = {0.2, 0.5, 0.8};
