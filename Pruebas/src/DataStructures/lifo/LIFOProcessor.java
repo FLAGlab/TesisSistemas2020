@@ -6,6 +6,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import DataStructures.MultithreadedComputation;
 import DataStructures.Processor;
 
+
 public class LIFOProcessor extends Thread implements Processor {
 	// The multithreaded computation that the processor has to execute
 	private MultithreadedComputation computation;
@@ -156,7 +157,7 @@ public class LIFOProcessor extends Thread implements Processor {
 	@Override
 	public void run() {
 		
-		long startTime = System.nanoTime();
+		long startTime = System.currentTimeMillis();
 		if (this.id==0) 
 			this.readyDequeue.add(0);
 		while(this.computation.numberOfVisitedVertices() != this.computation.getNumberVerticesG()) {
@@ -167,8 +168,9 @@ public class LIFOProcessor extends Thread implements Processor {
 				System.out.println(e.getMessage());
 			}
 		}
-		this.executionTime = System.nanoTime() - startTime;
-		System.out.println("LIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
+		this.executionTime = System.currentTimeMillis() - startTime;
+		System.out.println("LIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime);
+		//Main.lifoTasks.println("LIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	//Get Methods 

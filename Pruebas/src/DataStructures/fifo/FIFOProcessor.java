@@ -161,7 +161,7 @@ public class FIFOProcessor extends Thread implements Processor {
 	 */
 	@Override
 	public void run() {
-		long startTime = System.nanoTime();
+		long startTime = System.currentTimeMillis();
 		if (this.id==0) 
 			readyDequeue.add(0);
 		while(computation.numberOfVisitedVertices()!= computation.getNumberVerticesG()) {
@@ -172,8 +172,9 @@ public class FIFOProcessor extends Thread implements Processor {
 				System.out.println(e.getMessage());
 			}
 		}
-		this.executionTime = System.nanoTime()-startTime;
-		System.out.println("FIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
+		this.executionTime = System.currentTimeMillis() - startTime;
+		System.out.println("FIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime);
+		//Main.fifoTasks.println("FIFO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	

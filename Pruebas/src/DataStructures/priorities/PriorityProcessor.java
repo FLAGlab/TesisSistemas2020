@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import DataStructures.Processor;
 
+
 public class PriorityProcessor extends Thread implements Processor {	
 	// The multithreaded computation that the processor has to execute
 	PriorityMultithreadedComputation computation;
@@ -145,7 +146,7 @@ public class PriorityProcessor extends Thread implements Processor {
 	 */
 	public void run() {
 		
-		long startTime = System.nanoTime();
+		long startTime = System.currentTimeMillis();
 		if (this.id==0) {
 			readyDequeue.add(0);
 		}
@@ -157,8 +158,9 @@ public class PriorityProcessor extends Thread implements Processor {
 				// TODO: handle exception
 			}
 		}
-		executionTime = System.nanoTime()-startTime;
-		System.out.println("PRIO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
+		this.executionTime = System.currentTimeMillis()-startTime;
+		System.out.println("PRIO," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime);
+		//Main.priorTasks.println("PRIOR," + this.totalTasks + "," + this.iteration + "," + (this.id + 1) + "," + this.tasksExecuted + "," + this.executionTime*1E-6);
 	}
 	
 	//Get Methods 	

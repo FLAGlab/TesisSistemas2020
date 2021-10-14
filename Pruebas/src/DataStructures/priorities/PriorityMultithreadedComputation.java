@@ -19,14 +19,14 @@ public class PriorityMultithreadedComputation extends MultithreadedComputation {
 		longestPath = new LongestPathDAG(this.getG());
 		priorityVertices = new ArrayList<Integer>();
 		
-		long startTime = System.nanoTime();
+		long startTime = System.currentTimeMillis();
 		
 		//Fill each priorityVertices array entry with its corresponding vertex priority
 		longestPath.calculateLongestPathLengthFromVertex(0);
 		priorityVertices = longestPath.getPriorityVerticesDAG();
 		
-		long executionTime = System.nanoTime()-startTime;
-		System.out.println("Priority of vertices calculated in " + executionTime*1E-6 + " milliseconds.");
+		long executionTime = System.currentTimeMillis()-startTime;
+		System.out.println("VERTEX," + executionTime);
 	}
 	
 	public ArrayList<Integer> getPriorityVertices() {
