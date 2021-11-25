@@ -14,7 +14,7 @@ Performance evaluation
 
   Density | 1 processor | 8 processos | 32 processors | 96 processor 
  ------------- | ------------- | ------------- | ------------- | ------------- 
- 0.2  | ![Image](https://github.com/FLAGlab/WorkStealingAlgorithms/blob/main/figures/all_02_1.pdf)  |  |  | 
+ 0.2  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_1.png" width="200" height="200"> |  |  | 
  0.5  | Content Cell  |  |  |
  0.8  |  |  |  |
 
