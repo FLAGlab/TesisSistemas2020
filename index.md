@@ -29,4 +29,4 @@ All our benchmarks ran on a XeonSP G291-281 GPU Server with two RTX2080 CPUs, ea
 ### Desnsity = 0.2
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processor
  ------------- | ------------- | ------------- | ------------- | ------------- 
-200 |  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_8_200.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png" width="200" height="200"> |
+200 |  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_8_200.png" width="300" height="100"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png" width="300" height="100"> |
