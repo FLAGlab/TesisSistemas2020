@@ -1,37 +1,28 @@
 ## Evaluation of Work Stealing Algorithms
 
-You can use the [editor on GitHub](https://github.com/FLAGlab/WorkStealingAlgorithms/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We evaluate three work stealing algorithms. The classic algorithms, as well as an alternative proposal using priorities:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Experiment Design
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Each validation scenario uses a different computation size (i.e., number of tasks), generating DAGs to represent the computation containing 50, 100, 200, 400, 800, and 1600 nodes. Additionally, for each DAG size we evaluate three different graph density values (i.e., the ratio of outgoing edges to nodes) 0.2, 0.5, and 0.8
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Experiment Results
 
-- Bulleted
-- List
+Performance evaluation
 
-1. Numbered
-2. List
+  Density | 1 processor | 8 processos | 32 processors | 96 processor 
+ ------------- | ------------- | ------------- | ------------- | ------------- 
+ 0.2  | ![Image](https://github.com/FLAGlab/WorkStealingAlgorithms/blob/main/figures/all_02_1.pdf)  |  |  | 
+ 0.5  | Content Cell  |  |  |
+ 0.8  |  |  |  |
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+Load evaluation
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Evaluation Configuration
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FLAGlab/WorkStealingAlgorithms/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+All our benchmarks ran on a XeonSP G291-281 GPU Server with two RTX2080 CPUs, each with 48 physical cores with a 2.2GHz frequency and a 128GB NUMA enabled memory architecture, running the Ubuntu 20.04.2 LTS OS. We use version 1.8 of the JVM for our experiments.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
