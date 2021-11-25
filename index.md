@@ -23,7 +23,7 @@ Each validation scenario uses a different computation size (i.e., number of task
 
 ### Desnsity = 0.2
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
- ------------- | ------------- | ------------- | ------------- | ------------- 
+ ------------- | ------------- | ------------- | ------------- | -------------  
 200 |  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_8_200.png" width="300" height="100"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png" width="300" height="100"> |
 
 
