@@ -13,7 +13,7 @@ Each validation scenario uses a different computation size (i.e., number of task
 ## Performance evaluation
 
   Density | 1 processor | 8 processos | 32 processors | 96 processors 
- ------------- | ------------- | ------------- | ------------- | ------------- 
+ -------------- | -------------- | -------------- | -------------- | -------------- 
  0.2  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_1.png" width="200" height="200"> |   <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_8.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_96.png" width="200" height="200">
  0.5  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_1.png" width="200" height="200">  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_8.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_96.png" width="200" height="200">
  0.8  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_1.png" width="200" height="200"> |  <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_8.png" width="200" height="200">| <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_96.png" width="200" height="200">
@@ -23,7 +23,7 @@ Each validation scenario uses a different computation size (i.e., number of task
 
 ### Desnsity = 0.2
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
- ------------- | ------------- | ------------- | ------------- | -------------  
+ -------------- | -------------- | -------------- | -------------- | --------------  
 200 |  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_8_200.png" width="300" height="100"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png" width="300" height="100"> |
 
 
