@@ -14,9 +14,9 @@ Each validation scenario uses a different computation size (i.e., number of task
 
   Density | 1 processor | 8 processos | 32 processors | 96 processors 
  -------------- | -------------- | -------------- | -------------- | -------------- 
- 0.2  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_1.png" width="200" height="200"> |   <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_8.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_02_96.png" width="200" height="200">
- 0.5  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_1.png" width="200" height="200">  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_8.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_05_96.png" width="200" height="200">
- 0.8  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_1.png" width="200" height="200"> |  <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_8.png" width="200" height="200">| <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_32.png" width="200" height="200"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/all_08_96.png" width="200" height="200">
+ 0.2  | ![02_1](img/all_02_1.png) | ![02_8](img/all_02_8.png) | ![02_32](img/all_02_32.png) | ![02_96](img/all_02_96.png)
+ 0.5  | ![05_1](img/all_02_1.png) | ![05_8](img/all_02_8.png) | ![05_32](img/all_02_32.png) | ![05_96](img/all_02_96.png)
+ 0.8  | ![08_1](img/all_02_1.png) | ![08_8](img/all_02_8.png) | ![08_32](img/all_02_32.png) | ![08_96](img/all_02_96.png)
 
 
 ## Load evaluation
@@ -24,9 +24,9 @@ Each validation scenario uses a different computation size (i.e., number of task
 ### Desnsity = 0.2
 
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
- -------------- | -------------- | -------------- | -------------- | --------------  
+ :-------------- | :-------------- | :-------------- | :-------------- | :--------------  
  50 |  |  |  |  
-200 |  | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_8_200.png" width="300" height="100"> | <img src="https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png" width="300" height="100"> |
+200 |  | ![02_8_200](img/load_02_8_200.png) | ![02_32_200](img/load_02_32_200.png) |
 
 
 ### Desnsity = 0.5
@@ -34,7 +34,7 @@ No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
  -------------- | -------------- | -------------- | -------------- | --------------  
  50 |  |  |  |  
- 200 |  |  | ![05_32_200]("img/load_02_32_200.png") |  
+ 200 |  |  |  |  
 
 ### Desnsity = 0.8
 
