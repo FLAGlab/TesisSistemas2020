@@ -34,7 +34,7 @@ No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
 No. of  Nodes | 1 processor | 8 processos | 32 processors | 96 processors
  -------------- | -------------- | -------------- | -------------- | --------------  
  50 |  |  |  |  
- 200 |  |  | ![05_32_200]("https://github.com/FLAGlab/WorkStealingAlgorithms/blob/gh-pages/img/load_02_32_200.png") |  
+ 200 |  |  | ![05_32_200]("img/load_02_32_200.png") |  
 
 ### Desnsity = 0.8
 
